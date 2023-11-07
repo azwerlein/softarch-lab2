@@ -12,4 +12,10 @@ public class Driver {
 
         courses.forEach(c -> System.out.println(c.getCourseName()));
     }
+
+    /*
+     * After making the Course abstract class, I think that this program looks much cleaner. I don't have to read
+     * through the same repeated code and properties in every subclass, since it's all handled in Course. This leaves
+     * room for the functions that have to be handled differently in each Course.
+     */
 }
